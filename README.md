@@ -32,41 +32,26 @@ Graphiques et tableaux récapitulatifs pour les administrateurs.
 
 ## Structure du Projet
 
+'''
 ├── app.py                 # Fichier principal pour exécuter l'application Flask
-
 ├── database.db            # Base de données SQLite
-
 ├── statistique.py         # Analyse et génération de statistiques
-
 ├── static/                # Fichiers statiques (CSS, images, JSON)
-
 │   ├── css/style.css      # Styles CSS
-
 │   ├── img/               # Images utilisées dans l'application
-
 │   └── questions.json     # Questions et réponses pour les quiz
-
 ├── templates/             # Modèles HTML pour les pages
-
 │   ├── layout.html        # Layout de base
-
 │   ├── login.html         # Page de connexion
-
 │   ├── register.html      # Page d'inscription
-
 │   ├── quiz.html          # Interface des quiz
-
 │   ├── MainAdmin.html     # Interface d'administration
-
 │   └── autres fichiers    # Pages supplémentaires
-
 ├── requirements.txt       # Dépendances Python
-
 ├── .gitattributes         # Fichiers de configuration Git
-
 └── README.md              # Documentation du projet
 
-
+'''
 ## Prérequis
 
 Python 3.x
